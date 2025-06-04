@@ -25,7 +25,7 @@ const Navbar = () => {
               </div>
 
               <div className="hidden md:flex space-x-6 items-center">
-                <a href="/cyberschool" className="text-gray-300 hover:text-gray-100">
+                <a href="/cyberschool/" className="text-gray-300 hover:text-gray-100">
                   Home
                 </a>
                 <a href="/cyberschool#about" className="text-gray-300 hover:text-gray-100">
@@ -39,21 +39,21 @@ const Navbar = () => {
                   </button>
                   <div className="absolute hidden group-hover:block py-2 w-40 rounded">
                     <div className="mt-2 bg-white shadow-md rounded">
-                      <Link to="/cyberschool/courses/certified-cyber-expert" className="block px-4 py-2 hover:bg-gray-100">
+                      <Link to="/courses/certified-cyber-expert" className="block px-4 py-2 hover:bg-gray-100">
                         Course
                       </Link>
                       <Link
-                        to="/cyberschool/training-events"
+                        to="/training-events"
                         className="block px-4 py-2 hover:bg-gray-100"
                       >
                         Training Events
                       </Link>
-                      <Link
-                        to="/cyberschool/#online"
+                      <a
+                        href="/cyberschool#online-training"
                         className="block px-4 py-2 hover:bg-gray-100"
                       >
                         Online Training
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>

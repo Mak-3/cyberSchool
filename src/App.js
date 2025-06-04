@@ -28,7 +28,7 @@ function App() {
                 <section id="about">
                   <AboutUs />
                 </section>
-                <section id="services">
+                <section id="online-training">
                   <Training />
                 </section>
                 <section id="work-with-us">
@@ -38,13 +38,10 @@ function App() {
             }
           />
           <Route
-            path="/cyberschool/courses/certified-cyber-expert"
+            path="/courses/certified-cyber-expert"
             element={<CertifiedCyberExpert />}
           />
-          <Route
-            path="/training-events"
-            element={<TrainingEvents />}
-          />
+          <Route path="/training-events" element={<TrainingEvents />} />
         </Routes>
         <Footer />
       </Router>
