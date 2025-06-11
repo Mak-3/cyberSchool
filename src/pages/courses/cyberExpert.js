@@ -2,7 +2,7 @@ import { useState } from "react";
 import learningWoman from "../../assets/images/woman-learning.jpg";
 import image1 from "../../assets/images/carouselImage1.jpg";
 
-export default function CertifiedCyberExpert() {
+export default function CyberExpert() {
   const [activeSection, setActiveSection] = useState(null);
 
   const toggleSection = (section) => {
@@ -47,9 +47,7 @@ export default function CertifiedCyberExpert() {
         <div className="min-h-[90vh] grid md:grid-cols-2 gap-8 items-center">
           <div className="text-left h-full flex flex-col justify-center">
             <h1 className="text-4xl md:text-7xl font-bold text-[#001c54] leading-snug mb-4">
-              Executing Strategy
-              <br />
-              for Results – Dubai
+              Applied AI for Cybersecurity Professionals
             </h1>
             <p className="text-lg text-[#001c54]">
               70% of strategies fail to deliver. Be in the 30% that succeed.

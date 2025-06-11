@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import logo from "../assets/images/logo.jpg";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,16 +21,22 @@ const Navbar = () => {
         <nav className="bg-[#001e62] shadow-md">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-4">
             <div className="flex justify-between items-center h-16">
-              <div className="text-2xl font-bold text-gray-300">
+              <div className="text-2xl font-bold text-gray-300 flex items-center gap-2 justify-center">
+                <img src={logo} alt="Cyber School logo" className="w-12" />
                 Cyber School
               </div>
-
               <div className="hidden md:flex space-x-6 items-center">
-                <a href="/cyberschool/" className="text-gray-300 hover:text-gray-100">
+                <a
+                  href="/cyberschool/"
+                  className="text-gray-300 hover:text-gray-100"
+                >
                   Home
                 </a>
-                <a href="/cyberschool#about" className="text-gray-300 hover:text-gray-100">
-                  About
+                <a
+                  href="/cyberschool#about"
+                  className="text-gray-300 hover:text-gray-100"
+                >
+                  About us
                 </a>
 
                 <div className="relative group">
@@ -37,16 +44,19 @@ const Navbar = () => {
                     Training
                     <FaChevronDown className="w-3 h-3 mt-0.5" />
                   </button>
-                  <div className="absolute hidden group-hover:block py-2 w-40 rounded">
+                  <div className="absolute hidden group-hover:block py-2 w-64 rounded">
                     <div className="mt-2 bg-white shadow-md rounded">
-                      <Link to="/courses/certified-cyber-expert" className="block px-4 py-2 hover:bg-gray-100">
-                        Course
-                      </Link>
                       <Link
-                        to="/training-events"
+                        to="/training/cyber-expert"
                         className="block px-4 py-2 hover:bg-gray-100"
                       >
-                        Training Events
+                        Applied AI for Cybersecurity Professionals
+                      </Link>
+                      <Link
+                        to="/training/cyber-expert"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        AI for Risk Management Professionals
                       </Link>
                       <a
                         href="/cyberschool#online-training"
@@ -54,14 +64,40 @@ const Navbar = () => {
                       >
                         Online Training
                       </a>
+                      <Link
+                        to="/training-events"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        Training Events
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="relative group">
+                  <button className="flex items-center gap-1 text-gray-300 hover:text-gray-100">
+                    Certification
+                    <FaChevronDown className="w-3 h-3 mt-0.5" />
+                  </button>
+                  <div className="absolute hidden group-hover:block py-2 w-64 rounded">
+                    <div className="mt-2 bg-white shadow-md rounded">
+                      <Link
+                        to="/certified-cyber-expert"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        CxAICSP ( Certified Applied AI Cybersecurity
+                        Professional)
+                      </Link>
+                      <Link
+                        to="/certified-cyber-expert"
+                        className="block px-4 py-2 hover:bg-gray-100"
+                      >
+                        CxAIRMP (Certified AI Risk Management Professional)
+                      </Link>
                     </div>
                   </div>
                 </div>
                 <a href="#" className="text-gray-300 hover:text-gray-100">
                   Executive Education
-                </a>
-                <a href="#" className="text-gray-300 hover:text-gray-100">
-                  Certification
                 </a>
                 <a href="#" className="text-gray-300 hover:text-gray-100">
                   Contact
