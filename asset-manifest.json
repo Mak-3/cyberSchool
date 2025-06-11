@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/cyberschool/static/css/main.1f9c1fca.css",
-    "main.js": "/cyberschool/static/js/main.6e3fd103.js",
+    "main.css": "/cyberschool/static/css/main.716bd895.css",
+    "main.js": "/cyberschool/static/js/main.bead8b9e.js",
     "static/js/453.738079b3.chunk.js": "/cyberschool/static/js/453.738079b3.chunk.js",
     "static/media/carouselImage1.jpg": "/cyberschool/static/media/carouselImage1.d4e7cd0e90a2d0b613ff.jpg",
     "static/media/carouselImage2.jpg": "/cyberschool/static/media/carouselImage2.cb24f2db46a3d393d913.jpg",
     "static/media/carouselImage3.jpg": "/cyberschool/static/media/carouselImage3.9b196df85f5e4e17d71e.jpg",
     "static/media/woman-learning.jpg": "/cyberschool/static/media/woman-learning.18ceaaa040c575215e1f.jpg",
+    "static/media/logo.jpg": "/cyberschool/static/media/logo.c6f981344b7e7d09530c.jpg",
     "static/media/logo.svg": "/cyberschool/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cyberschool/index.html",
-    "main.1f9c1fca.css.map": "/cyberschool/static/css/main.1f9c1fca.css.map",
-    "main.6e3fd103.js.map": "/cyberschool/static/js/main.6e3fd103.js.map",
+    "main.716bd895.css.map": "/cyberschool/static/css/main.716bd895.css.map",
+    "main.bead8b9e.js.map": "/cyberschool/static/js/main.bead8b9e.js.map",
     "453.738079b3.chunk.js.map": "/cyberschool/static/js/453.738079b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f9c1fca.css",
-    "static/js/main.6e3fd103.js"
+    "static/css/main.716bd895.css",
+    "static/js/main.bead8b9e.js"
   ]
 }
